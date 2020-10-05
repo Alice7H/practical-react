@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-// import Icon from './components/Icon'
-// import Toastify from './components/Toastify';
+// import IconComponent from './components/IconComponent'
+// import ToastifyComponent from './components/ToastifyComponent';
 import ModalComponent from './components/ModalComponent';
 
 function App() {
   return (
     <div className="App">
-      {/* <Icon></Icon>
-      <Toastify></Toastify> */}
+      {/* <IconComponent></IconComponent>
+      <ToastifyComponent></ToastifyComponent> */}
       <ModalComponent/>
     </div>
   );

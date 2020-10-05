@@ -1,5 +1,5 @@
 import React from 'react'
-import {ToastContainer , toast, Zoom} from 'react-toastify'
+import {ToastContainer , toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 const CustomToast = ({closeToast}) => {
@@ -13,7 +13,7 @@ const CustomToast = ({closeToast}) => {
 
 toast.configure()
 
-export default function Toastify() {
+export default function ToastifyComponent() {
 
     const notify = () => {
         toast('You have a default notification!') // default top-right 5 seconds

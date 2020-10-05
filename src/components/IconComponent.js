@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons'
 import { FaUser} from 'react-icons/fa'       // font awesome
 import { MdFavorite } from 'react-icons/md'  // material design
 
-export default function Icon() {
+export default function IconComponent() {
     return (
         <IconContext.Provider value={{color: 'gray', size: '5rem'}}>
             <div>
