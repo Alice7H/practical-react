@@ -8,7 +8,12 @@ import './App.css';
 // import IdleTimerComponent from './components/IdleTimerComponent';
 // import ColorPickerComponent from './components/ColorPickerComponent';
 // import CreditCardComponent from './components/CreditCardComponent';
-import DatePickerComponent from './components/DatePickerComponent';
+// import DatePickerComponent from './components/DatePickerComponent';
+// import PlayerComponent from './components/PlayerComponent';
+// import SpinnersComponent from './components/SpinnersComponent';
+import LineChartComponent from './components/LineChartComponent';
+import BarChartComponent from './components/BarCharComponent';
+import DoughnutChartComponent from './components/DoughnutChartComponent';
 
 function App() {
   return (
@@ -20,9 +25,13 @@ function App() {
       <CountUpComponent/>
       <IdleTimerComponent/>
       <ColorPickerComponent/>
-      <CreditCardComponent/>*/}
+      <CreditCardComponent/>
       <DatePickerComponent/>
-  
+      <PlayerComponent/>
+      <SpinnersComponent/>*/}
+      <LineChartComponent/>
+      <BarChartComponent/>
+      <DoughnutChartComponent/>
     </div>
   );
 }

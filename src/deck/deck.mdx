@@ -1,0 +1,91 @@
+import { themes } from 'mdx-deck'
+import Counter from '../components/Counter.js'
+
+export const theme = themes.yellow
+
+<Header>
+
+# Header
+
+</Header>
+
+<Footer>
+
+# Footer
+
+</Footer>
+
+
+# Hello 
+
+---
+
+# Welcome to MDX Deck
+
+---
+
+# The new way to present your ideas!
+
+---
+
+# Counter component
+
+<Counter/>
+
+---
+
+#  Items load on keypress
+
+<Steps>
+
+- One
+- Two
+- Three
+- Four
+
+</Steps>
+
+---
+
+# Title text
+
+ subtitle text
+
+ ---
+
+```jsx
+ import React from 'react'
+
+ function Count() {
+     return (
+         <div>
+            <h2>Hello world</h2>
+         </div>
+     )
+ }
+ export default Count
+```
+
+---
+
+```jsx
+ import React from 'react'
+
+ export default function Count() {
+     return (
+         <div>
+            <h2>Hello world</h2>
+         </div>
+     )
+ }
+```
+---
+
+```jsx
+ import React from 'react'
+
+ export default () => 
+    <>
+       <h2>Hello world</h2>
+    </>
+```
